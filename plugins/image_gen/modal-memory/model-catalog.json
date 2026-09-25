@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-24T00:00:00Z",
+  "metadata": {"owner": "AGENT MCP AI", "backend": "modal-comfyui", "cache_ttl_seconds": 86400},
+  "providers": {
+    "modal": {
+      "metadata": {"display_name": "Modal + ComfyUI", "kind": "image", "queue": true, "vision": true},
+      "models": [
+        {"id": "qwen-image", "description": "recommended", "default": true, "metadata": {"modal": true, "edit": false, "vision": false, "strengths": ["prompt adherence", "text rendering"]}},
+        {"id": "flux-schnell", "description": "fast", "metadata": {"modal": true, "edit": false, "vision": false, "strengths": ["iteration", "speed"]}},
+        {"id": "anima-preview", "description": "Anima preview anime/non-photorealistic workflow from the supplied ComfyUI template", "metadata": {"modal": true, "edit": false, "vision": false, "template": "workflows/templates/image_anima_preview.gui.json", "source_model": "anima-preview3-base.safetensors", "strengths": ["anime", "non-photorealistic", "character art"]}}
+      ]
+    }
+  },
+  "default_model": "qwen-image",
+  "image_models": {
+    "qwen-image": {"aspect_ratios": ["1:1", "16:9", "9:16", "4:3", "3:4"], "supports": {"edit": false, "analyze": true, "max_reference_images": 0}},
+    "flux-schnell": {"aspect_ratios": ["1:1", "16:9", "9:16"], "supports": {"edit": false, "analyze": true, "max_reference_images": 0}},
+    "anima-preview": {"aspect_ratios": ["1:1", "9:16", "4:3", "3:4"], "supports": {"edit": false, "analyze": true, "max_reference_images": 0}, "template": "workflows/templates/image_anima_preview.gui.json", "models": {"diffusion_models": "anima-preview3-base.safetensors", "text_encoders": "qwen_3_06b_base.safetensors", "vae": "qwen_image_vae.safetensors"}}
+  }
+}

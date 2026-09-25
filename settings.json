@@ -1,0 +1,4 @@
+{
+  "image_gen": {"provider": "modal"},
+  "modal_memory": {"cache_ttl_seconds": 86400, "auto_register_generated": false, "auto_sync_huggingface": false, "quality_gate": true}
+}

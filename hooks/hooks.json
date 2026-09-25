@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "image_generate|analyze_image|queue_image|sync_hf_dataset",
+        "hooks": [{"type": "command", "command": "python3 ${CLAUDE_PLUGIN_ROOT}/scripts/audit_event.py"}]
+      }
+    ]
+  }
+}

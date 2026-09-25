@@ -1,0 +1,11 @@
+name: modal-memory
+version: 1.0.0
+description: Production Modal GPU + ComfyUI visual production provider with image generation, restoration, analysis, caching, queueing, style memory, dataset curation, and Hugging Face sync.
+author: AGENT MCP AI
+kind: backend
+requires_env:
+  - MODAL_BACKEND_URL
+
+# Directory plugin: copy this directory to ~/.hermes/plugins/image_gen/modal-memory/
+# Skill pack: install the sibling claude-plugin/skills directory for routing,
+# restoration, Nothing design, memory, prompt engineering, memes, and video.

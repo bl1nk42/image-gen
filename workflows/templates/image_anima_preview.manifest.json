@@ -1,0 +1,18 @@
+{
+  "name": "image_anima_preview",
+  "source": "ComfyUI GUI export supplied by the user",
+  "format": "gui-workflow",
+  "api_adapter": "comfy_workflow_adapter.gui_to_api",
+  "model": "anima-preview3-base.safetensors",
+  "text_encoder": "qwen_3_06b_base.safetensors",
+  "vae": "qwen_image_vae.safetensors",
+  "model_paths": {
+    "diffusion_models": "models/diffusion_models/anima-preview3-base.safetensors",
+    "text_encoders": "models/text_encoders/qwen_3_06b_base.safetensors",
+    "vae": "models/vae/qwen_image_vae.safetensors"
+  },
+  "default_width": 1024,
+  "default_height": 1024,
+  "requested_ratio_note": "9:16; use 768x1344 when executing portrait output",
+  "negative_prompt_from_template": "worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, sepia"
+}

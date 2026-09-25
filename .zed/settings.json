@@ -1,0 +1,13 @@
+{
+  "languages": {
+    "Rust": {
+      "line_ending": "enforce_lf",
+      "preferred_line_length": 100,
+      "soft_wrap": "prefer_line",
+      "auto_indent": "preserve_indent"
+    }
+  },
+  "prettier": {
+    "allowed": true
+  }
+}

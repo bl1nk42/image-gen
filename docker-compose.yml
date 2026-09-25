@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  image-generation-service:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GOOGLE_CLOUD_BUCKET=${GOOGLE_CLOUD_BUCKET}
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/credentials/service-account-key.json
+      - REDIS_URL=redis://redis:6379
+      - CACHE_EXPIRATION_HOURS=24
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./credentials:/app/credentials:ro
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  redis_data:
+

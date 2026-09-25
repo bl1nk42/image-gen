@@ -1,0 +1,9 @@
+modal>=0.73.82,<1
+fastapi>=0.115,<1
+pillow>=11,<12
+requests>=2.32,<3
+numpy>=2,<3
+transformers>=4.45,<5
+sentence-transformers>=3,<4
+huggingface_hub>=0.25,<1
+lancedb>=0.17,<1

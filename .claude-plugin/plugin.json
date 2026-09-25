@@ -1,0 +1,7 @@
+{
+  "name": "modal-memory-image",
+  "version": "1.0.0",
+  "description": "Production visual production system for Modal + ComfyUI: generation, restoration, analysis, cache, queue, memory, style learning, dataset curation, memes, and video workflows.",
+  "author": {"name": "AGENT MCP AI"},
+  "keywords": ["image-generation", "photo-restoration", "nothing-design", "memory-recall", "prompt-engineering", "comfyui", "modal", "dataset", "vision", "meme", "video", "style-learning"]
+}
