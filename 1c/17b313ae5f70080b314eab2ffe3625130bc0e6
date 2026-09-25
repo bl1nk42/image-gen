@@ -1,0 +1,186 @@
+.claude-plugin/plugin.json
+  h_a25ade2a4fe7aa 1-7
+.dockerignore
+  h_a25ade2a4fe7aa 1-59
+.env.example
+  h_a25ade2a4fe7aa 1-15
+.env.modal.example
+  h_a25ade2a4fe7aa 1-15
+.zed/settings.json
+  h_a25ade2a4fe7aa 1-13
+DEPLOYMENT_GUIDE.md
+  h_a25ade2a4fe7aa 1-450
+Dockerfile
+  h_a25ade2a4fe7aa 1-40
+MODAL_COMFYUI_GUIDE.md
+  h_a25ade2a4fe7aa 1-93
+README.md
+  h_a25ade2a4fe7aa 1-281
+ROUTER_COMFYUI_TEST_REPORT.md
+  h_a25ade2a4fe7aa 1-32
+"Router and ComfyUI Template Test Report.md"
+  h_a25ade2a4fe7aa 1-32
+SKILLS_INDEX.md
+  h_a25ade2a4fe7aa 1-17
+SKILL_PACK_DELIVERY.md
+  h_a25ade2a4fe7aa 1-44
+TESTING_RESULTS.md
+  h_a25ade2a4fe7aa 1-178
+__init__.py
+  h_a25ade2a4fe7aa 1-116
+agents/style-curator.md
+  h_a25ade2a4fe7aa 1-5
+app/__init__.py
+  h_a25ade2a4fe7aa 1-2
+app/config.py
+  h_a25ade2a4fe7aa 1-30
+app/main.py
+  h_a25ade2a4fe7aa 1-137
+app/models/__init__.py
+  h_a25ade2a4fe7aa 1-2
+app/models/schemas.py
+  h_a25ade2a4fe7aa 1-26
+app/services/__init__.py
+  h_a25ade2a4fe7aa 1-2
+app/services/cache.py
+  h_a25ade2a4fe7aa 1-228
+app/services/image_generator.py
+  h_a25ade2a4fe7aa 1-105
+app/services/storage.py
+  h_a25ade2a4fe7aa 1-112
+app/utils/__init__.py
+  h_a25ade2a4fe7aa 1-2
+app/utils/helpers.py
+  h_a25ade2a4fe7aa 1-59
+comfy_workflow_adapter.py
+  h_a25ade2a4fe7aa 1-92
+commands/image-status.md
+  h_a25ade2a4fe7aa 1-5
+commands/prepare-prompt.md
+  h_a25ade2a4fe7aa 1-5
+commands/sync-dataset.md
+  h_a25ade2a4fe7aa 1-5
+docker-compose.yml
+  h_a25ade2a4fe7aa 1-33
+env.modal.example
+  h_a25ade2a4fe7aa 1-20
+hooks/hooks.json
+  h_a25ade2a4fe7aa 1-10
+install.ps1
+  h_a25ade2a4fe7aa 1-5
+install.py
+  h_a25ade2a4fe7aa 1-25
+install.sh
+  h_a25ade2a4fe7aa 1-3
+modal_backend.py
+  h_a25ade2a4fe7aa 1-342
+modal_memory_cli.py
+  h_a25ade2a4fe7aa 1-51
+model-catalog.json
+  h_a25ade2a4fe7aa 1-21
+plugins/image_gen/modal-memory/ARCHITECTURE.md
+  h_a25ade2a4fe7aa 1-26
+plugins/image_gen/modal-memory/__init__.py
+  h_a25ade2a4fe7aa 1-110
+plugins/image_gen/modal-memory/model-catalog.json
+  h_a25ade2a4fe7aa 1-21
+plugins/image_gen/modal-memory/plugin.yaml
+  h_a25ade2a4fe7aa 1-11
+plugins/image_gen/modal-memory/specs/input.md
+  h_a25ade2a4fe7aa 1-13
+plugins/image_gen/modal-memory/specs/output.md
+  h_a25ade2a4fe7aa 1-17
+plugins/image_gen/modal-memory/tools.py
+  h_a25ade2a4fe7aa 1-184
+requirements-modal.txt
+  h_a25ade2a4fe7aa 1-9
+requirements.txt
+  h_a25ade2a4fe7aa 1-11
+scripts/audit_event.py
+  h_a25ade2a4fe7aa 1-9
+scripts/validate_skill_pack.py
+  h_a25ade2a4fe7aa 1-16
+settings.json
+  h_a25ade2a4fe7aa 1-4
+skills/character-story-video/SKILL.md
+  h_a25ade2a4fe7aa 1-21
+skills/character-story-video/references/continuity.md
+  h_a25ade2a4fe7aa 1-3
+skills/dataset-curation/SKILL.md
+  h_a25ade2a4fe7aa 1-11
+skills/image-generation/SKILL.md
+  h_a25ade2a4fe7aa 1-37
+skills/image-generation/references/batch-and-queue.md
+  h_a25ade2a4fe7aa 1-5
+skills/image-generation/references/model-routing.md
+  h_a25ade2a4fe7aa 1-14
+skills/image-generation/references/prompt-contract.md
+  h_a25ade2a4fe7aa 1-18
+skills/image-generation/references/quality-gates.md
+  h_a25ade2a4fe7aa 1-5
+skills/meme-generator/SKILL.md
+  h_a25ade2a4fe7aa 1-21
+skills/meme-generator/references/template-map.md
+  h_a25ade2a4fe7aa 1-12
+skills/memory-recall/SKILL.md
+  h_a25ade2a4fe7aa 1-22
+skills/memory-recall/references/memory-contract.md
+  h_a25ade2a4fe7aa 1-3
+skills/modal-operations/SKILL.md
+  h_a25ade2a4fe7aa 1-9
+skills/nothing-design/SKILL.md
+  h_a25ade2a4fe7aa 1-20
+skills/nothing-design/references/components.md
+  h_a25ade2a4fe7aa 1-5
+skills/nothing-design/references/tokens.md
+  h_a25ade2a4fe7aa 1-7
+skills/photo-restoration/SKILL.md
+  h_a25ade2a4fe7aa 1-26
+skills/photo-restoration/references/preservation-checklist.md
+  h_a25ade2a4fe7aa 1-5
+skills/photo-restoration/references/restoration-profiles.md
+  h_a25ade2a4fe7aa 1-16
+skills/prompt-engineer/SKILL.md
+  h_a25ade2a4fe7aa 1-19
+skills/prompt-engineer/references/evaluation-rubric.md
+  h_a25ade2a4fe7aa 1-9
+skills/prompt-engineer/references/prompt-patterns.md
+  h_a25ade2a4fe7aa 1-5
+skills/prompt-engineer/references/structured-output.md
+  h_a25ade2a4fe7aa 1-5
+skills/style-learning/SKILL.md
+  h_a25ade2a4fe7aa 1-9
+skills/video-generator/SKILL.md
+  h_a25ade2a4fe7aa 1-20
+skills/video-generator/references/blueprint.md
+  h_a25ade2a4fe7aa 1-22
+skills/visual-production-router/SKILL.md
+  h_a25ade2a4fe7aa 1-11
+test_api.py
+  h_a25ade2a4fe7aa 1-203
+test_visual_router_and_workflow.py
+  h_a25ade2a4fe7aa 1-70
+tools.py
+  h_a25ade2a4fe7aa 1-212
+vector_store.py
+  h_a25ade2a4fe7aa 1-132
+verify_modal_project.py
+  h_a25ade2a4fe7aa 1-37
+workflows/README.md
+  h_a25ade2a4fe7aa 1-21
+workflows/templates/image_anima_preview.gui.json
+  h_a25ade2a4fe7aa 1-1112
+workflows/templates/image_anima_preview.manifest.json
+  h_a25ade2a4fe7aa 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1c17b313ae5f70080b314eab2ffe3625130bc0e6",
+  "prompts": {},
+  "humans": {
+    "h_a25ade2a4fe7aa": {
+      "author": "bl1nk-team <billlzzz18@gmail.com>"
+    }
+  }
+}
